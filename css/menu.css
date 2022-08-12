@@ -1,0 +1,241 @@
+/*------------------------------------------------------------------
+   START HEADER
+-------------------------------------------------------------------*/
+.top-navbar{
+	position: relative;
+	z-index: 10;
+}
+
+.top-navbar .navbar{
+	padding: 15px 0px;
+	position: fixed;
+	width: 100%;
+	transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	z-index: 100;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-link{
+	color: #010101;
+	font-size: 18px;
+	padding: 0px 20px;
+	border-radius: 4px;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
+	background: #d0a772;
+	color: #ffffff;
+}
+.top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
+	background: #d0a772;
+	color: #ffffff;
+	border-radius: 4px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+	border: none;
+	 box-shadow: 2px 5px 6px rgba(0,0,0,0.5);
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover{
+	background: #d0a772;
+	color: #ffffff;
+}
+.navbar-light .navbar-toggler:hover{
+	background: #cfa671;
+}
+
+/*------------------------------------------------------------------
+   END HEADER
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+    START BANNER
+-------------------------------------------------------------------*/
+.banner-bg
+	{
+		background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/gallery_05.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center top;
+		height: 80vh;
+		width: 100%;
+		background-attachment: fixed;
+	}
+.banner-tittle
+	{
+		position: absolute;
+		top: 48%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+.banner-tittle h1
+	{
+		color: #fff;
+		font-size: 50px;
+		font-family: unset;
+		letter-spacing: 2px;
+	}
+.banner-tittle span
+	{
+		color: red;
+	}
+
+/*------------------------------------------------------------------
+   END HEADER
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+   Start Menu
+-------------------------------------------------------------------*/
+.menu
+	{
+		margin-top:70px;
+		text-align: center;
+	}
+.menu-head h1
+	{
+		font-family: all;
+		font-size: 35px;
+	}
+.menu-head p
+	{
+		font-size: 21px;
+		padding-top: 20px;
+	}
+.menu-head hr
+	{
+		width: 200px;
+		margin-top: 30px;
+	}
+.menu-btn
+	{
+		margin:45px;
+		margin-left: 520px;
+		border: none;
+	}
+.menu-btn button
+	{
+		width: 93px;
+		height: 50px;
+		padding: 10px 20px;
+		margin: 0 5px;
+		border: none;
+		text-transform: uppercase;
+		font-family: sans-serif;
+		color: #000;
+		border-radius: 5px;
+		outline: none;
+	}
+.menu-btn button:hover
+	{
+		cursor: pointer;
+		box-shadow:  inset 0 2px 5px rgba(208,167,114, 0.9);
+		border: none;
+	}
+.bk
+	{
+		font-size: 12px;
+		text-align: left;
+		font-family: sans-serif;
+	}
+.menu-img img
+	{
+		cursor: pointer;
+		transition: .4s ease-out;
+	}
+.menu-img img:hover
+	{
+		transform: scale(1.1);
+	}
+.menu-txt
+	{
+		margin-top: 20px;
+	}
+
+.menu-btn .mixitup-control-active
+    {
+        background: #d0a772;
+        color: #fff;
+    }
+
+/*------------------------------------------------------------------
+   END Menu
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+   START Fotter
+-------------------------------------------------------------------*/
+.fotter
+	{
+		background: linear-gradient(rgba(33,37,41,0.9),rgba(33,37,41,0.9)), url(../images/footer-bg.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 80vh;
+        background-attachment: fixed; 
+        margin-top: 100px;
+	}
+.fotter-text
+	{
+		color:#fff;
+		margin-top: 90px;
+	}
+.fotter-text h2
+	{
+		font-size: 24px;
+		padding:15px 0;
+		text-transform: uppercase;
+		border-bottom: 1px dashed rgba(207, 166, 113, 0.5);
+	}
+.fotter-text p
+	{
+		margin-top: 15px;
+		letter-spacing: 2px;
+		color: rgba(255, 255, 255, 0.8);
+	}
+input[type="text"]
+	{
+		width: 280px;
+		height: 60px;
+		margin-top: 20px;
+		background:#000;
+		border: none;
+		color: #fff;
+		outline: none;
+	}
+input[type="submit"]
+	{
+		width: 280px;
+		height: 60px;
+		font-size: 22px;
+		font-family: sans-serif;
+		text-transform: uppercase;
+		border: none;
+		background-color: #d0a772;
+		cursor: pointer;
+		color: #fff;
+		transition: .4s ;
+		outline: none;
+	}
+input[type="submit"]:hover
+	{
+		background-color: #000;
+		color: #fff;
+	}
+.final-bg
+	{
+		color: rgba(255, 255, 255, 0.8);
+		margin-top: 125px;
+		margin-left: 170px;
+	}
+.final-bg h2
+	{
+		font-size: 20px;
+	}
+.final-bg span
+	{
+		color: #fff;
+	}
+/*------------------------------------------------------------------
+   END Fotter
+-------------------------------------------------------------------*/

@@ -1,0 +1,71 @@
+body
+	{
+		background-image: linear-gradient(to right, #095530, #126c39, #37773e);
+
+	}
+.registation-bg
+	{
+		height: 600px;
+		width: 520px;
+		background-color: #E4E1E2;
+		margin-top: 50px;
+		border-radius: 35px 0;
+	}
+.registation-head
+	{
+		margin-top: 30px;
+	}
+.registation-head h2
+	{
+		font-size: 38px;
+		font-family: sans-serif;
+		color: #036C03;
+	}
+.registation-head p
+	{
+		text-align: center;
+	}
+input[type="text"],input[type="email"],input[type="number"],input[type="password"]
+	{
+		width: 350px;
+		height: 40px;
+		background-color: #FFFFFF;
+		border-radius: 75px;
+		margin: 10px;
+		border: none;
+		margin-left: 60px;
+		outline: none;
+		font-weight: 400;
+		text-align: center;
+
+		}
+::placeholder
+	{
+		font-size: 15px;
+	}
+input[type="checkbox"]
+	{
+		margin-left: 60px;
+		margin-top: 20px;
+	}
+input[type="submit"]
+	{
+		width: 350px;
+		height: 40px;
+		margin: 10px;
+		margin-left: 60px;
+		margin-top: 10px;
+		border-radius: 75px;
+		background-color: #036C03;
+		border: 1px solid #fff;
+		color: #fff;
+		transition: .4s;
+		cursor: pointer;
+		font-family: sans-serif;
+		font-size: 19px;
+		outline: none;
+	}
+input[type="submit"]:hover
+	{
+		background-color: #8c657a;
+	}
